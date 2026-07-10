@@ -8,7 +8,6 @@ all: run
 
 install:
 	poetry install
-	poetry run pip install mazegen-0.1.0.tar.gz
 
 run: install
 	poetry run $(PYTHON) $(ENTRY) $(CONFIGS)
