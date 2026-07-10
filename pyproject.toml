@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "mazegen", from = "mazegen-0.1.0/src"}]
+packages = [{include = "mazegen", from = "mazegen-0.1.0-py3-none-any"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

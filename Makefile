@@ -7,8 +7,8 @@ CONFIGS     := ./config.txt
 all: run
 
 install:
-	poetry run pip install mazegen-0.1.0.tar.gz
 	poetry install
+	poetry run pip install mazegen-0.1.0-py3-none-any.whl
 
 run: install
 	poetry run $(PYTHON) $(ENTRY) $(CONFIGS)
