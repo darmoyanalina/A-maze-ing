@@ -7,15 +7,12 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.10"
-# 1. Tell Poetry 2.0 to look at the tool section for dependencies
-dynamic = [ "dependencies" ] 
+dynamic = [ "dependencies" ]
 
-# 2. Make sure the old "dependencies = [...]" array is COMPLETELY REMOVED from this section
 
 [tool.poetry]
 package-mode = false
 
-# 3. Put all your dependencies together down here
 [tool.poetry.dependencies]
 python = ">=3.10"
 numpy = "==2.2.6"
