@@ -12,6 +12,9 @@ dependencies = [
     "pydantic (==2.13.4)"
 ]
 
+[tool.poetry]
+package-mode = false 
+
 [tool.poetry.dependencies]
 mazegen = { path = "mazegen-0.1.0", develop = true }
 
