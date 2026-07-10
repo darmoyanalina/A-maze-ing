@@ -16,7 +16,7 @@ dependencies = [
 package-mode = false 
 
 [tool.poetry.dependencies]
-mazegen = { path = "mazegen-0.1.0", develop = true }
+mazegen = { file = "mazegen-0.1.0.tar.gz" }
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
